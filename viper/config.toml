@@ -1,0 +1,4 @@
+title = "TOML Example"
+
+[clients]
+data = ["gamma", "delta"]
