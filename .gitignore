@@ -1,4 +1,3 @@
-
 # Created by https://www.gitignore.io/api/go,macos
 
 ### Go ###
@@ -42,5 +41,35 @@ Network Trash Folder
 Temporary Items
 .apdisk
 
-
 # End of https://www.gitignore.io/api/go,macos
+
+
+# Created by https://www.gitignore.io/api/ocaml
+# Edit at https://www.gitignore.io/?templates=ocaml
+
+### OCaml ###
+*.annot
+*.cmo
+*.cma
+*.cmi
+*.a
+*.o
+*.cmx
+*.cmxs
+*.cmxa
+
+# ocamlbuild working directory
+_build/
+
+# ocamlbuild targets
+*.byte
+*.native
+
+# oasis generated files
+setup.data
+setup.log
+
+# Merlin configuring file for Vim and Emacs
+.merlin
+
+# End of https://www.gitignore.io/api/ocaml
