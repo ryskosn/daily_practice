@@ -1,2 +1,3 @@
 (executable
-    (name foo))
+    (name foo)
+    (libraries lwt.unix))
