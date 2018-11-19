@@ -1,3 +1,4 @@
 let hoge = 10
-let () = print_int hoge;
-         Lwt_main.run (Lwt_io.printf "Hello, world!\n")
+let rec fact n = if n = 1 then 1 else n * fact (n - 1)
+let%test _ = fact 5 = 120
+(* let () = print_int hoge; *)
