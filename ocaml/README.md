@@ -11,6 +11,8 @@ $ opam switch list -all
 $ opam switch 4.06.0
 ```
 
+### dune
+
 install dune
 
 ```sh
@@ -21,6 +23,7 @@ $ opam install dune
 - [ocaml/dune: A composable build system for OCaml](https://github.com/ocaml/dune)
 - [dune documentation](https://jbuilder.readthedocs.io/en/latest/index.html#)
 - [Jane Street Open Source](https://opensource.janestreet.com/)
+
 
 dune file
 ```lisp
@@ -49,6 +52,14 @@ $ tree
 ```sh
 $ dune exec ./foo.exe
 ```
+
+## tips
+
+### tuareg-mode
+
+- `C-c C-t` : show type of expression at cursol
+
+- [ocaml/tuareg: Emacs OCaml mode](https://github.com/ocaml/tuareg)
 
 ## ref
 
