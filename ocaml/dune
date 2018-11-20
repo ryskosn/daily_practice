@@ -1,4 +1,4 @@
 (library
  (name foo)
- (inline_tests)
+ (inline_tests (flags (-verbose)))
  (preprocess (pps ppx_inline_test)))
