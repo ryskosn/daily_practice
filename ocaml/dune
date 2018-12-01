@@ -1,6 +1,5 @@
 (library
-;; (executable
- (name foo)
+ (name learn_ocaml)
  ;; (inline_tests (flags (-verbose)))
  (inline_tests)
  (preprocess (pps ppx_inline_test)))
