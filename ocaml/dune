@@ -1,4 +1,6 @@
 (library
+;; (executable
  (name foo)
- (inline_tests (flags (-verbose)))
+ ;; (inline_tests (flags (-verbose)))
+ (inline_tests)
  (preprocess (pps ppx_inline_test)))
