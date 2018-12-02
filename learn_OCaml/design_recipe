@@ -2,7 +2,7 @@
 # name: design_recipe
 # --
 (* purpose: $1 *)
-(* $2 : $0type -> type *)
+(* ${2:function_name} : ${3:type} -> ${4:type}$0 *)
 (* pattern: match pair with (a, b) *)
 
 let $2 = ()
