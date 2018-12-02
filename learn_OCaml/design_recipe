@@ -1,0 +1,14 @@
+# key: design
+# name: design_recipe
+# --
+(* purpose: $1 *)
+(* $2 : $0type -> type *)
+(* pattern: match pair with (a, b) *)
+
+let $2 = ()
+
+(* test *)
+let%test "test" = $2 = ()
+let%test "test" = $2 = ()
+let%test "test" = $2 = ()
+;;
