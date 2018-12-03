@@ -37,3 +37,18 @@ let%test "test" = tsurukame_no_ashi 2 4 = 20
 let%test "test" = tsurukame_no_ashi 0 3 = 12
 let%test "test" = tsurukame_no_ashi 5 0 = 10
 ;;
+
+(* Q 4.8 *)
+(* purpose: 鶴と亀の数の合計と足の数の合計から弦の数を返す *)
+(* tsurukame : int -> int -> int *)
+(* pattern: nothing *)
+
+let tsurukame kazu ashi_no_kazu =
+  (kazu * 4 - ashi_no_kazu) / 2
+
+(* test *)
+let%test "test" = tsurukame 0 0 = 0
+let%test "test" = tsurukame 2 6 = 1
+let%test "test" = tsurukame 3 8 = 2
+let%test "test" = tsurukame 10 26 = 7
+;;
